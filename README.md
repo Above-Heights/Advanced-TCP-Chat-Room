@@ -1,10 +1,5 @@
 # Advanced-TCP-Chat-Room
 Real-time multi-client TCP chatroom built with Python socket programming, Flask, and Socket.IO. Features a modern browser-based UI, multiple client support, real-time messaging, sender/receiver chat alignment, and localhost deployment for learning, demonstrations, and networking projects.
-# Advanced TCP Chatroom with Web UI
-
-A real-time multi-client TCP chatroom application built using Python sockets with a modern browser-based web interface using Flask and Socket.IO.
-
----
 
 ## Features
 
