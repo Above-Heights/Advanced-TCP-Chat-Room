@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TCP Chatroom</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+        <h1>TCP Chatroom</h1>
+
+        <input type="text" id="alias" placeholder="Enter alias">
+
+        <button onclick="joinChat()">Join Chat</button>
+
+        <div class="server-box">
+            <p>Server: localhost</p>
+            <p>Port: 8000</p>
+            <p>Status: Running</p>
+        </div>
+    </div>
+
+    <div class="chat-section">
+
+        <div id="chat-box"></div>
+
+        <div class="message-box">
+            <input type="text" id="message" placeholder="Type message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
