@@ -216,9 +216,7 @@ Possible future upgrades:
 
 ## Author
 
-Aniket Tomar
-
-BCA Graduate | Cyber Security Enthusiast | Python Developer
+ANIKET TOMAR
 
 LinkedIn:  
 https://www.linkedin.com/in/aniket-tomar-a17954250/
